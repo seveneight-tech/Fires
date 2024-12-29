@@ -1,0 +1,1 @@
+<x-micropost-form :action="route('microposts.update', $micropost->id)" :micropost="$micropost" buttonText="更新する" />

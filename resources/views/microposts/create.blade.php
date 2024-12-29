@@ -1,0 +1,1 @@
+<x-micropost-form :action="route('microposts.store')" buttonText="投稿する" />
